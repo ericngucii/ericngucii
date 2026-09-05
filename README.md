@@ -38,11 +38,11 @@ A few things I work on outside of client work.
 
 | Project | What it does | Stack |
 | :--- | :--- | :--- |
-| **[Argus](https://github.com/lucasngucii/Argus)** <br /><sub>v0.1 · alpha</sub> | A local-first gate for AI coding agents. Parses each command into an AST, scores it by severity, and returns allow / ask / deny. Decisions are stored locally so they can be explained and replayed. | `Go` `SQLite` |
-| **[product-hub](https://github.com/lucasngucii/product-hub)** <br /><sub>contributor</sub> | Product operating system for a team — roadmaps scored by RICE, OKRs that roll up on their own, self-generating cycles, and burn-up charts reconstructed from issue timestamps. Multi-tenant, and the workspace itself is an MCP server. | `NestJS` `MongoDB` `React` `TypeScript` |
-| **[face-detection](https://github.com/lucasngucii/face-detection)** | Attention monitoring from a webcam — MTCNN for detection, MediaPipe landmarks, six geometric features, then a classifier. Around 92% accuracy at ~32 FPS. | `Python` `scikit-learn` |
-| **[clickhouse-owl](https://github.com/diepnghitinh/clickhouse-owl)** <br /><sub>contributor</sub> | Web admin console for ClickHouse — tabbed SQL editor, natural-language query generation, visual table builder. | `Next.js` `TypeScript` |
-
+| **[Argus](https://github.com/lucasngucii/Argus)** <br /><sub>v0.1 · alpha</sub> | ... | `Go` `SQLite` |
+| **[nodeterm](https://github.com/eneskirca/nodeterm)** <br /><sub>contributor</sub> | Node-based terminal manager. Every shell is a real PTY node on an infinite pan/zoom canvas, and tmux keeps sessions — including running agents — alive across app restarts and reboots. One core behind a platform seam, so the same renderer ships as a desktop app, a self-hosted browser edition over WebSocket-RPC, and an iOS companion. | `TypeScript` `Electron` `React Flow` `node-pty` |
+| **[product-hub](https://github.com/lucasngucii/product-hub)** <br /><sub>contributor</sub> | ... | `NestJS` `MongoDB` `React` `TypeScript` |
+| **[face-detection](https://github.com/lucasngucii/face-detection)** | ... | `Python` `scikit-learn` |
+| **[clickhouse-owl](https://github.com/diepnghitinh/clickhouse-owl)** <br /><sub>contributor</sub> | ... | `Next.js` `TypeScript` |
 ---
 
 ### End to End
